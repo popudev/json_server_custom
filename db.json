@@ -1,1 +1,402 @@
-{"users":[{"id":"1af6c0ca-5b24-41ee-b795-cc03e12e648c","fullName":"Vương Như Anh","email":"NhAnh_Vng@gmail.com","age":29,"phone":"+84 693 239 673","admin":false},{"id":"e8417883-80cc-4719-8a6c-a275161f1776","fullName":"Trương Việt Huy","email":"VitHuy.Trng@gmail.com","age":33,"phone":"+84 172 230 160","admin":false},{"id":"5e7ad153-883e-4468-ac64-f1234e153b60","fullName":"Nguyễn Bích Huệ","email":"BchHu.Nguyn83@gmail.com","age":33,"phone":"+84 784 744 471","admin":false},{"id":"4b69da6c-a6f6-49fb-9b19-11f6eef3cde9","fullName":"Tô Duy Tuyền","email":"DuyTuyn_T@gmail.com","age":48,"phone":"+84 662 915 056","admin":false},{"id":"e0e675c4-c735-492e-9f18-e2dea79a5f92","fullName":"Lý Hữu Hiệp","email":"HuHip39@gmail.com","age":50,"phone":"+84 589 915 573","admin":false},{"id":"99999eae-311b-4e33-bc66-feca0b2ff280","fullName":"Tăng Trọng Chính","email":"TrngChnh.Tng20@gmail.com","age":47,"phone":"+84 994 239 245","admin":false},{"id":"3c153cbb-392d-499b-bf5d-591ab9900d5a","fullName":"Ngô Triển Sinh","email":"TrinSinh42@gmail.com","age":26,"phone":"+84 948 932 395","admin":false},{"id":"f894e96c-9f50-4675-8d40-de726454ea34","fullName":"Phùng Quỳnh Hoa","email":"QunhHoa.Phng@gmail.com","age":51,"phone":"+84 840 818 555","admin":false},{"id":"8dcdc8b3-2e45-48e0-893e-6dbb3414d3bc","fullName":"Lê Yên Đan","email":"Ynan_L@gmail.com","age":37,"phone":"+84 018 878 626","admin":false},{"id":"102cf19e-093b-4e8a-9cc9-2e3ab086a414","fullName":"Đặng Trúc Linh","email":"TrcLinh.ng@gmail.com","age":53,"phone":"+84 415 195 174","admin":false}]}
+{
+  "users": [
+    {
+      "id": "53b037b3-c66b-4f77-8f34-8970f812ef15",
+      "fullName": "Phan Quang Ninh",
+      "email": "QuangNinh_Phan@gmail.com",
+      "age": 39,
+      "phone": "+84 977 401 430",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.387Z",
+      "updatedAt": "2022-07-20T09:24:25.387Z"
+    },
+    {
+      "id": "bc8254e3-7373-43f2-a628-f2b7b7318156",
+      "fullName": "Đặng Cao Nguyên",
+      "email": "CaoNguyn_ng@gmail.com",
+      "age": 19,
+      "phone": "+84 993 500 705",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.387Z",
+      "updatedAt": "2022-07-20T09:24:25.387Z"
+    },
+    {
+      "id": "299efe7a-24bf-4f89-9012-7266d86a0111",
+      "fullName": "Hà Quang Thạch",
+      "email": "QuangThch25@gmail.com",
+      "age": 21,
+      "phone": "+84 860 470 361",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.387Z",
+      "updatedAt": "2022-07-20T09:24:25.387Z"
+    },
+    {
+      "id": "662922db-d07d-4364-a0d3-8b887ed3b6c0",
+      "fullName": "Tô Nhật Tấn",
+      "email": "NhtTn_T@gmail.com",
+      "age": 27,
+      "phone": "+84 180 987 225",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.387Z",
+      "updatedAt": "2022-07-20T09:24:25.387Z"
+    },
+    {
+      "id": "4a289c46-db7a-4a30-80b0-d253e791c3c8",
+      "fullName": "Tô Danh Thành",
+      "email": "DanhThnh_T95@gmail.com",
+      "age": 26,
+      "phone": "+84 133 326 987",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.387Z",
+      "updatedAt": "2022-07-20T09:24:25.387Z"
+    },
+    {
+      "id": "fbac809a-b3bb-4363-9b11-e9e4aff8ffd6",
+      "fullName": "Hoàng Nhật Duy",
+      "email": "NhtDuy.Hong@gmail.com",
+      "age": 49,
+      "phone": "+84 433 062 980",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.387Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "8ba1fad7-17fe-4939-bdbe-98a07a08e8f9",
+      "fullName": "Đặng Trọng Tấn",
+      "email": "TrngTn_ng29@gmail.com",
+      "age": 48,
+      "phone": "+84 680 488 940",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "222d7db1-da97-4fa4-aefd-a4109582ea06",
+      "fullName": "Đặng Minh Dân",
+      "email": "MinhDn.ng27@gmail.com",
+      "age": 39,
+      "phone": "+84 086 906 464",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "b96e5da0-ae05-454f-9392-1e8dde971711",
+      "fullName": "Hà Xuân Kiên",
+      "email": "XunKin_H@gmail.com",
+      "age": 58,
+      "phone": "+84 227 544 999",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "6997fd0d-b0e6-401c-be95-f683a109fcd2",
+      "fullName": "Lâm Diễm Trinh",
+      "email": "DimTrinh_Lm@gmail.com",
+      "age": 32,
+      "phone": "+84 585 156 499",
+      "admin": false,
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "a71b158b-4962-4169-8975-34de5669898f",
+      "title": "Industrial",
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "7dc58006-edaf-405a-b74c-2d66761e5ca2",
+      "title": "Computers",
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "title": "Home",
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "title": "Outdoors",
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "142604ef-6d8a-44db-a4f4-cd18abde011f",
+      "title": "Health",
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "cbca759b-a11a-42ad-85b6-fc68f4845a1a",
+      "title": "Bespoke Fresh Pants",
+      "categoryId": "a71b158b-4962-4169-8975-34de5669898f",
+      "price": 365,
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "90438ec6-a24f-4a65-abe5-bdbd7a401ac8",
+      "title": "Handcrafted Cotton Ball",
+      "categoryId": "a71b158b-4962-4169-8975-34de5669898f",
+      "price": 529,
+      "createdAt": "2022-07-20T09:24:25.388Z",
+      "updatedAt": "2022-07-20T09:24:25.388Z"
+    },
+    {
+      "id": "c1359ed2-09a7-486f-859f-3b8989d609ba",
+      "title": "Awesome Cotton Ball",
+      "categoryId": "a71b158b-4962-4169-8975-34de5669898f",
+      "price": 669,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "34cb1818-b974-4e47-95fa-096c421470bf",
+      "title": "Intelligent Granite Table",
+      "categoryId": "a71b158b-4962-4169-8975-34de5669898f",
+      "price": 755,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "328055d7-3d73-4202-b39c-538edd91d015",
+      "title": "Practical Cotton Bike",
+      "categoryId": "a71b158b-4962-4169-8975-34de5669898f",
+      "price": 401,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "04a5d628-a2d4-4aab-af7a-f32a25a6d8f0",
+      "title": "Gorgeous Concrete Bike",
+      "categoryId": "a71b158b-4962-4169-8975-34de5669898f",
+      "price": 628,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "588d4f4e-0d88-4694-8c4f-8b851970f26d",
+      "title": "Incredible Fresh Pants",
+      "categoryId": "7dc58006-edaf-405a-b74c-2d66761e5ca2",
+      "price": 790,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "7bf63bac-8f9f-491d-bef1-abc7f5969c82",
+      "title": "Unbranded Bronze Keyboard",
+      "categoryId": "7dc58006-edaf-405a-b74c-2d66761e5ca2",
+      "price": 317,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "bb5390c4-7734-4aab-b8c1-210df04048dc",
+      "title": "Unbranded Frozen Chair",
+      "categoryId": "7dc58006-edaf-405a-b74c-2d66761e5ca2",
+      "price": 924,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "33ed3e45-8952-4f37-8b73-34cc47852e9b",
+      "title": "Small Metal Chair",
+      "categoryId": "7dc58006-edaf-405a-b74c-2d66761e5ca2",
+      "price": 543,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "842f2b8c-de3c-4232-bf77-1122c318a488",
+      "title": "Handcrafted Steel Bacon",
+      "categoryId": "7dc58006-edaf-405a-b74c-2d66761e5ca2",
+      "price": 440,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "53113d64-9499-4f3b-9763-60deb45cac66",
+      "title": "Fantastic Plastic Shoes",
+      "categoryId": "7dc58006-edaf-405a-b74c-2d66761e5ca2",
+      "price": 590,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "2352829d-c635-4281-ae5f-5c073735df3c",
+      "title": "Small Granite Sausages",
+      "categoryId": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "price": 936,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "ca9c51eb-b61e-4d68-9008-401202335254",
+      "title": "Rustic Frozen Pizza",
+      "categoryId": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "price": 358,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "756078db-a0df-4cce-9e74-7405064d4f05",
+      "title": "Bespoke Steel Sausages",
+      "categoryId": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "price": 7,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "cf264598-093c-4543-b732-3c9c797151f4",
+      "title": "Intelligent Fresh Chair",
+      "categoryId": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "price": 575,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "adb98fab-6c28-4697-b1ed-c0831fa9e0d6",
+      "title": "Elegant Metal Towels",
+      "categoryId": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "price": 293,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "05b31363-7a9f-4b96-9623-d9948838e5e9",
+      "title": "Bespoke Concrete Salad",
+      "categoryId": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "price": 443,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "ef64bf58-b3ab-4310-aef0-8599de6cd036",
+      "title": "Small Plastic Gloves",
+      "categoryId": "f74acb40-e672-4ff3-97a1-e755bf87b365",
+      "price": 785,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "c09fe27d-bfba-4365-9cae-d2d2cbfc43f5",
+      "title": "Gorgeous Plastic Cheese",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 61,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "a49872bb-6328-4eac-b9d0-30918864875d",
+      "title": "Gorgeous Granite Chicken",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 302,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "54b1a6c9-0bd7-4b82-a3db-1123084b385c",
+      "title": "Incredible Steel Pizza",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 32,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "a3d02943-b58f-4384-a729-90769ef6bd2b",
+      "title": "Small Bronze Salad",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 576,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "ed702907-af47-405a-9592-f65863cab48c",
+      "title": "Practical Frozen Sausages",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 755,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "44dbf0a1-ae5f-4bec-a988-f5a61a61b5a7",
+      "title": "Handmade Rubber Soap",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 417,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "84cf7521-8222-436e-a561-30e4de0e058a",
+      "title": "Handcrafted Rubber Shirt",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 262,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "13d5a1bc-b821-4c73-9562-b7c77e1138cd",
+      "title": "Oriental Plastic Tuna",
+      "categoryId": "22bf6928-bc37-48df-9ede-d91002fda022",
+      "price": 840,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "eb2bb4f7-82c8-4ca5-a4e4-3c89d43ed742",
+      "title": "Small Cotton Soap",
+      "categoryId": "142604ef-6d8a-44db-a4f4-cd18abde011f",
+      "price": 507,
+      "createdAt": "2022-07-20T09:24:25.389Z",
+      "updatedAt": "2022-07-20T09:24:25.389Z"
+    },
+    {
+      "id": "cea0f3dc-0d76-4dd8-a42a-149e9805b547",
+      "title": "Recycled Concrete Ball",
+      "categoryId": "142604ef-6d8a-44db-a4f4-cd18abde011f",
+      "price": 892,
+      "createdAt": "2022-07-20T09:24:25.390Z",
+      "updatedAt": "2022-07-20T09:24:25.390Z"
+    },
+    {
+      "id": "4d74e857-b4c1-4736-80b7-3ea7b1a72fb1",
+      "title": "Handmade Cotton Pants",
+      "categoryId": "142604ef-6d8a-44db-a4f4-cd18abde011f",
+      "price": 245,
+      "createdAt": "2022-07-20T09:24:25.390Z",
+      "updatedAt": "2022-07-20T09:24:25.390Z"
+    },
+    {
+      "id": "36d6ccb0-3152-4465-ba52-2aa9abeef81f",
+      "title": "Licensed Wooden Chair",
+      "categoryId": "142604ef-6d8a-44db-a4f4-cd18abde011f",
+      "price": 205,
+      "createdAt": "2022-07-20T09:24:25.390Z",
+      "updatedAt": "2022-07-20T09:24:25.390Z"
+    },
+    {
+      "id": "19204917-e02f-40e1-acc2-377792c8db07",
+      "title": "Incredible Plastic Bacon",
+      "categoryId": "142604ef-6d8a-44db-a4f4-cd18abde011f",
+      "price": 420,
+      "createdAt": "2022-07-20T09:24:25.390Z",
+      "updatedAt": "2022-07-20T09:24:25.390Z"
+    },
+    {
+      "id": "26b75d8e-ff9b-4141-95ff-c4f8ad7775b1",
+      "title": "Refined Concrete Computer",
+      "categoryId": "142604ef-6d8a-44db-a4f4-cd18abde011f",
+      "price": 206,
+      "createdAt": "2022-07-20T09:24:25.390Z",
+      "updatedAt": "2022-07-20T09:24:25.390Z"
+    }
+  ]
+}
