@@ -3,6 +3,7 @@ const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const queryString = require('query-string');
+const PORT = 8000;
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
@@ -31,15 +32,15 @@ router.render = (req, res) => {
   const headers = res.getHeaders();
   const totalCountHeader = headers['x-total-count'];
 
-  if ((req.method = 'GET' & totalCountHeader)) {
-    const queryParams = queryString.parse(req._parsedurl.query);
+  if (req.method === 'GET' && totalCountHeader) {
+    const queryParams = queryString.parse(req._parsedurl?.query);
 
     const result = {
-      data: res.locals.data,
+      payload: res.locals.data,
       pagination: {
         _page: Number.parseInt(queryParams._page) || 1,
         _limit: Number.parseInt(queryParams._limit) || 10,
-        _totalRows: Number.parseInt(totalCountHeader),
+        _totalCount: Number.parseInt(totalCountHeader),
       },
     };
     return res.jsonp(result);
@@ -50,6 +51,6 @@ router.render = (req, res) => {
 
 // Use default router
 server.use(router);
-server.listen(3000, () => {
-  console.log('JSON Server is running');
+server.listen(PORT, () => {
+  console.log(`JSON Server is running port ${PORT}`);
 });

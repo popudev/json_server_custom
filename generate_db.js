@@ -47,11 +47,16 @@ const createProducts = (categories, { min, max }) => {
   categories.forEach((category) => {
     const n = faker.datatype.number({ min, max });
     Array.from(new Array(n)).forEach(() => {
+      const price = Number.parseFloat(faker.commerce.price());
+      const sale = Number.parseFloat(faker.commerce.price(0, price - 10));
+
       const product = {
         id: faker.datatype.uuid(),
         title: faker.commerce.productName(),
         categoryId: category.id,
-        price: Number.parseFloat(faker.commerce.price()),
+        price: price,
+        sale: sale,
+        image: faker.image.fashion(870, 1305),
         createdAt: faker.date.between(),
         updatedAt: faker.date.between(),
       };
