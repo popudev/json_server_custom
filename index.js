@@ -33,7 +33,8 @@ router.render = (req, res) => {
   const totalCountHeader = headers['x-total-count'];
 
   if (req.method === 'GET' && totalCountHeader) {
-    const queryParams = queryString.parse(req._parsedurl?.query);
+    const queryParams = queryString.parse(req._parsedUrl.query);
+    const totalPages = Math.ceil(Number.parseInt(totalCountHeader) / Number.parseInt(queryParams._limit));
 
     const result = {
       payload: res.locals.data,
@@ -41,6 +42,7 @@ router.render = (req, res) => {
         _page: Number.parseInt(queryParams._page) || 1,
         _limit: Number.parseInt(queryParams._limit) || 10,
         _totalCount: Number.parseInt(totalCountHeader),
+        _totalPages: totalPages,
       },
     };
     return res.jsonp(result);
